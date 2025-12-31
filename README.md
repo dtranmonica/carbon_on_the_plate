@@ -33,7 +33,7 @@ carbon_on_the_plate/
 │&nbsp;├── raw/&nbsp;&nbsp;&nbsp;# Original, immutable data\
 │&nbsp;└── processed/&nbsp;&nbsp;&nbsp; # Cleaned data used for analysis\
 ├── notebooks/&nbsp;&nbsp;&nbsp; # Jupyter Notebooks\
-│&nbsp;└── data_visualisation.ipynb
+│&nbsp;└── data_visualisation.ipynb\
 ├── reports/ &nbsp;&nbsp;&nbsp;&nbsp;# Saved results\
 ├── README.md &nbsp;&nbsp;&nbsp;&nbsp; # Project overview and "The Story"\      
 ├── src/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Cleaning data Python script\
