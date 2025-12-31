@@ -29,16 +29,16 @@ The dataset contains 43 records of food product and 9 variables (order and categ
 
 # Project structure
 carbon_on_the_plate/  
-├── data/                       # Data storage\
-│   ├── raw/                    # Original, immutable data\
-│   └── processed/          # Cleaned data used for analysis
-├── notebooks/              # Jupyter Notebooks
+├── data/'          '                       # Data storage\
+│   ├── raw/'          '                     # Original, immutable data\
+│   └── processed/'          '           # Cleaned data used for analysis\
+├── notebooks/'          '               # Jupyter Notebooks\
 │   └── data_visualisation.ipynb
-├── reports/                # Saved results
-│   ├── figures/            # Saved .png or .pdf charts
-│   └── tables/             # ANOVA results or correlation matrices
-├── README.md               # Project overview and "The Story"      
-├── src/                    # Cleaning data Python script
+├── reports/'          '                 # Saved results\
+│   ├── figures/'          '             # Saved .png or .pdf charts\
+│   └── tables/'          '              # ANOVA results or correlation matrices\
+├── README.md'          '                # Project overview and "The Story"\      
+├── src/'          '                     # Cleaning data Python script\
 │  └── data_cleaning.py
 
 # Limitations
