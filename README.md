@@ -28,7 +28,7 @@ The dataset contains 43 records of food product and 9 variables (order and categ
 - Upstream phase is mainly responsible for the carbon emissions instead of downstream phase.
 
 # Project structure
-carbon_on_the_plate/
+carbon_on_the_plate/  
 ├── data/                   # Data storage
 │   ├── raw/                # Original, immutable data
 │   └── processed/          # Cleaned data used for analysis
