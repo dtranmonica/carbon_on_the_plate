@@ -1,4 +1,4 @@
-# carbon_on_the_plate
+# Project title: carbon_on_the_plate
 Exploratory Data Analysis (EDA) and statistical testing of Green House Gas (GHG) emissions in the food supply chain using Python, Pandas, and Scipy.
 
 # Project overview
@@ -13,3 +13,44 @@ Stage 2: Agro-chain structural analysis
 - Which stages contribute the least GHG emissions?
 Stage 3: Agri-chain correlation analysis
 - What is the ratio between the upstream and downstream phases?
+
+# Data description
+The dataset contains 43 records of food product and 9 variables (order and category).
+
+# Tools and technologies
+- Python (pandas, matplotlib, sciPy)
+- VS Code
+- Jupyter Notebook
+
+# Insights
+- Ruminant food production is the highest emitters and plant-based foods are the lowest emitters.
+- Farming practices produce the highest volume of emissions while retail contributes the least.
+- Upstream phase is mainly responsible for the carbon emissions instead of downstream phase.
+
+# Project structure
+carbon_on_the_plate/
+├── data/                   # Data storage
+│   ├── raw/                # Original, immutable data
+│   └── processed/          # Cleaned data used for analysis
+├── notebooks/              # Jupyter Notebooks
+│   └── data_visualisation.ipynb
+├── reports/                # Saved results
+│   ├── figures/            # Saved .png or .pdf charts
+│   └── tables/             # ANOVA results or correlation matrices
+├── README.md               # Project overview and "The Story"      
+├── src/                    # Cleaning data Python script
+│  └── data_cleaning.py
+
+# Limitations
+- Limited availability: A number of variables were removed due to high proportion of missing values. Consequently, the analysis focuses on a reduced set of indicators and cannot examine additional environmental aspects.
+- Small sample size: The dataset contains only 43 observations, which limits statistical power and the generalizability of results.
+- Potential bias from data cleaning when removing variables with missing values.
+- Descriptive analysis only: observed relationships should not be interpreted as causal.
+- Lack of automation: the current workflow is exploratory and notebook-based, without reusable or automated data pipeline. 
+
+# Future improvements
+- Develop a reusable and automated data pipeline to handle data ingestion, cleaning, validation, and storage.
+- Expand the dataset with more observations, time periods, or geographic coverage to improve statistical power and generalizability. 
+- Apply more advanced statistical methods to move beyond descriptive insights.
+- Build an interactive dashboard to improve communication with non-technical audiences.
+- Store processed data in relational database (SQL) to support scalable querying and integration with visualisation tools. 

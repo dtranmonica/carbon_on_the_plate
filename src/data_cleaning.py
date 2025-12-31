@@ -24,6 +24,7 @@ food.rename(columns = {'scarcity-weighted_water_use_per_kilogram_liters_per_kilo
 
 #Check for missing values
 print(food.isnull().sum())
+
 #Drop collumns with excessive missing values
 food = food.drop(columns = ['eutrophying_per_1000kcal','eutrophying_per_kilogram', 'eutrophying_per_100g_protein','freshwater_per_1000kcal','freshwater_per_100g_protein','freshwater_per_kilogram','scarcity-weighted_water_use_per_kilogram','scarcity-weighted_water_use_per_100g_protein','scarcity-weighted_water_use_per_1000kcal', 'greenhouse_per_1000kcal','greenhouse_per_100g_protein','land_use_per_1000kcal','land_use_per_kilogram','land_use_per_100g_protein'])
 print(food.info())
@@ -39,7 +40,7 @@ print(food.head(20))
 food.columns = [col.lower().replace(' ','_') for col in food.columns]
 
 #Validate total_emissions values
-food['total_emissions'] = (food['land_use_change'] + food['farm'] + food['processing'] + food['transport'] + food['packaging'] + food['retail'])
+food['total_emissions'] = (food['land_use_change'] + food['animal_feed'] + food['farm'] + food['processing'] + food['transport'] + food['packaging'] + food['retail'])
 
 #Visual inspection of cleaned data
 plt.figure(figsize = (10,6))
