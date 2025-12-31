@@ -29,8 +29,8 @@ The dataset contains 43 records of food product and 9 variables (order and categ
 
 # Project structure
 carbon_on_the_plate/  
-├── data/                   # Data storage
-│   ├── raw/                # Original, immutable data
+├── data/                       # Data storage\
+│   ├── raw/                    # Original, immutable data\
 │   └── processed/          # Cleaned data used for analysis
 ├── notebooks/              # Jupyter Notebooks
 │   └── data_visualisation.ipynb
