@@ -29,15 +29,15 @@ The dataset contains 43 records of food product and 9 variables (order and categ
 
 # Project structure
 carbon_on_the_plate/  
-├── data/'          '                       # Data storage\
-' '│   '  '├── raw/'          '                     # Original, immutable data\
-' '│   '  '└── processed/'          '           # Cleaned data used for analysis\
-├── notebooks/'          '               # Jupyter Notebooks\
-' '│   '  '└── data_visualisation.ipynb
-├── reports/'          '                 # Saved results\
-├── README.md'          '                # Project overview and "The Story"\      
-├── src/'          '                     # Cleaning data Python script\
-│  '  '└── data_cleaning.py
+├── data/`         `                       # Data storage\
+│   `    `├── raw/`         `                    # Original, immutable data\
+│   `    `└── processed/`         `           # Cleaned data used for analysis\
+├── notebooks/`         `               # Jupyter Notebooks\
+` `│   `    `└── data_visualisation.ipynb
+├── reports/`         `                 # Saved results\
+├── README.md`         `                # Project overview and "The Story"\      
+├── src/'`         `                    # Cleaning data Python script\
+` `│  `    `└── data_cleaning.py
 
 # Limitations
 - Limited availability: A number of variables were removed due to high proportion of missing values. Consequently, the analysis focuses on a reduced set of indicators and cannot examine additional environmental aspects.
