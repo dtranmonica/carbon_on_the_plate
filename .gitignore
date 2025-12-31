@@ -1,0 +1,5 @@
+.DS_Store
+secret_config.json
+.venv/
+.ipynb_checkpoints/
+__pycache__/
