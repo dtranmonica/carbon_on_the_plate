@@ -39,6 +39,11 @@ carbon_on_the_plate/
 ├── src/'         '                     # Cleaning data Python script\
     ' '└── data_cleaning.py
 
+The action of every agent <br />
+  into the world <br />
+starts <br />
+  from their physical selves. <br />
+  
 # Limitations
 - Limited availability: A number of variables were removed due to high proportion of missing values. Consequently, the analysis focuses on a reduced set of indicators and cannot examine additional environmental aspects.
 - Small sample size: The dataset contains only 43 observations, which limits statistical power and the generalizability of results.
