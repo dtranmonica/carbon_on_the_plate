@@ -38,7 +38,11 @@ carbon_on_the_plate/
 ├── README.md &nbsp;&nbsp;&nbsp;&nbsp; # Project overview and "The Story"\      
 ├── src/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Cleaning data Python script\
 &nbsp;└── data_cleaning.py
-  
+
+# Project structure
+carbon_on_the_plate/  
+|-- data/  
+|       -- raw/ 
 # Limitations
 - Limited availability: A number of variables were removed due to high proportion of missing values. Consequently, the analysis focuses on a reduced set of indicators and cannot examine additional environmental aspects.
 - Small sample size: The dataset contains only 43 observations, which limits statistical power and the generalizability of results.
